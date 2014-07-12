@@ -1,0 +1,19 @@
+{
+  "main": "index.html",
+  "name": "slack-client",
+  "description": "Slack Client ",
+  "version": "0.1.0",
+  "keywords": [ "slack", "slack client" ],
+  "window": {
+    "title": "Slack Client",
+    "icon": "slack.png",
+    "toolbar": false,
+    "frame": true,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
