@@ -3,7 +3,10 @@
   "name": "slack-client",
   "description": "Slack Client ",
   "version": "0.1.0",
-  "keywords": [ "slack", "slack client" ],
+  "keywords": [
+    "slack",
+    "slack client"
+  ],
   "window": {
     "title": "Slack Client",
     "icon": "slack.png",
@@ -15,5 +18,9 @@
   },
   "webkit": {
     "plugin": true
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-node-webkit-builder": "^0.1.21"
   }
 }
